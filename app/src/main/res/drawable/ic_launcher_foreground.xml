@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 1. Left spine of capital 'D' -->
+    <path
+        android:pathData="M38,28 V80"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+
+    <!-- 2. Semicircular right-loop of 'D' (resembles speedometer scale) -->
+    <path
+        android:pathData="M38,28 C64,28 78,39 78,54 C78,69 64,80 38,80"
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- 3. Gauge Ticks -->
+    <!-- Tick 1 (top diagonal) -->
+    <path
+        android:pathData="M56,38 L61,33"
+        android:strokeColor="#FFC72C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+    
+    <!-- Tick 2 (center right) -->
+    <path
+        android:pathData="M64,54 L70,54"
+        android:strokeColor="#FFC72C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+
+    <!-- Tick 3 (bottom diagonal) -->
+    <path
+        android:pathData="M56,70 L61,75"
+        android:strokeColor="#FFC72C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"/>
+
+    <!-- 4. Speedometer needle pointing from the vertical spine center (38, 54) -->
+    <path
+        android:pathData="M38,54 L59,42"
+        android:strokeColor="#FF2E93"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"/>
+
+    <!-- 5. Rotating center pivot hub -->
+    <path
+        android:pathData="M38,54 M34,54 A4,4 0 1,1 42,54 A4,4 0 1,1 34,54"
+        android:fillColor="#FFFFFF"/>
+</vector>

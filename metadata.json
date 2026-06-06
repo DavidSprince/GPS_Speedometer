@@ -1,0 +1,6 @@
+{
+  "name": "D_Route",
+  "description": "Premium High-Precision Speedometer and Odometer HUD display, dynamic speed threshold indicators, analog fuel gauge, range predictors, and CSV log exporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
